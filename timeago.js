@@ -3,7 +3,7 @@
 //THIS IS RAN Timeago
 function refreshData(){
  var tm = 1,  // 1 second
-     id = $(".timeago");
+     id = jQuery(".timeago");
      id.timeago();
 jQuery.timeago.settings.strings = {
         prefixAgo:null,
